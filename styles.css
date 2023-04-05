@@ -51,16 +51,11 @@ a:hover {
   border: 1px solid #0000008c;
   padding: 10px 30px;
   border-radius: 670px;
-  transition: all 1s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 #join-btn:hover {
-  background-image: linear-gradient(
-    to left,
-    #d4fc79 0%,
-    #96e6a1 50%,
-    #d4fc79 100%
-  );
+  background-color: lightgreen;
 }
 
 #main {
@@ -76,15 +71,21 @@ a:hover {
 }
 
 #meltingHuman {
-  margin: 50px 0px 0px 50px;
+  border-radius: 30% 70% 70% 30% / 30% 57% 43% 70%;
+  margin: 50px 0px 0px 90px;
   width: 400px;
-  height: 500px;
+  height: 400px;
 }
 
 #main #aside {
-  max-width: 600px;
+  margin-right: 100px;
 }
 
 #aside h1 {
   margin-bottom: 15px;
 }
+
+#aside .paragraph {
+  max-width: 500px;
+}
+
