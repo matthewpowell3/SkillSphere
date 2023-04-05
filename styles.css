@@ -42,8 +42,12 @@ a {
   cursor: pointer;
 }
 
-ul:first-child {
-  color: lightblue;
+.home {
+  color: darkcyan;
+}
+
+.home:hover {
+  color: rgb(4, 172, 172);
 }
 
 a:hover {
