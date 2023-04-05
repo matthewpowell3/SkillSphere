@@ -45,27 +45,14 @@ a:hover {
   border: 1px solid #0000008c;
   padding: 10px 30px;
   border-radius: 670px;
+  transition: all 1s ease-in;
 }
 
 #join-btn:hover {
-  animation: moving 2s;
-}
-
-@keyframes moving {
-  form {
-    background-image: linear-gradient(
-      to left,
-      #d4fc79 0%,
-      #96e6a1 50%,
-      #d4fc79 100%
-    );
-  }
-  to {
-    background-image: linear-gradient(
-      to left,
-      #d4fc79 0%,
-      #96e6a1 100%,
-      #d4fc79 50%
-    );
-  }
+  background-image: linear-gradient(
+    to left,
+    #d4fc79 0%,
+    #96e6a1 50%,
+    #d4fc79 100%
+  );
 }
