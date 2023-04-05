@@ -20,7 +20,7 @@ body {
 
 #header #logo {
   width: 25px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 #nav {
@@ -71,7 +71,16 @@ a:hover {
   justify-content: space-between;
 }
 
-#main #meltingHuman {
-  width: 200px;
-  height: 200px;
+#main .img-container {
+  flex: 1;
+}
+
+#meltingHuman {
+  margin: 50px 0px 0px 50px;
+  width: 400px;
+  height: 500px;
+}
+
+#main #aside {
+  max-width: 600px;
 }
