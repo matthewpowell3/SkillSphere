@@ -46,3 +46,26 @@ a:hover {
   padding: 10px 30px;
   border-radius: 670px;
 }
+
+#join-btn:hover {
+  animation: moving 2s;
+}
+
+@keyframes moving {
+  form {
+    background-image: linear-gradient(
+      to left,
+      #d4fc79 0%,
+      #96e6a1 50%,
+      #d4fc79 100%
+    );
+  }
+  to {
+    background-image: linear-gradient(
+      to left,
+      #d4fc79 0%,
+      #96e6a1 100%,
+      #d4fc79 50%
+    );
+  }
+}
