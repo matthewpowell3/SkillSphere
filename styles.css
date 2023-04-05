@@ -84,3 +84,7 @@ a:hover {
 #main #aside {
   max-width: 600px;
 }
+
+#aside h1 {
+  margin-bottom: 15px;
+}
