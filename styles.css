@@ -19,7 +19,7 @@ body {
 }
 
 #header #logo {
-  width: 25px;
+  width: 0px;
   margin-right: 5px;
 }
 
@@ -39,6 +39,7 @@ body {
 a {
   color: #0000008c;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
