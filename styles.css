@@ -48,6 +48,12 @@ body {
   }
 }
 
+@media screen and (max-width: 910px) {
+  .word {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1021px) {
   #navbar-mobile {
     display: none;
