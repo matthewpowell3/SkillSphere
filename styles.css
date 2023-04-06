@@ -17,6 +17,7 @@ body {
 
 #header h1 {
   font-size: 25px;
+  cursor: pointer;
 }
 
 #header #logo {
