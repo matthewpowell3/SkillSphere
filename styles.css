@@ -25,6 +25,23 @@ body {
   margin-right: 5px;
 }
 
+@media screen and (max-width: 1000px) {
+  ul {
+    display: none;
+  }
+  #email-input {
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  #submit-button {
+    display: inline-block;
+    padding: 15px 40px;
+    margin-left: 50px;
+  }
+}
+
 #nav {
   margin-left: auto;
 }
