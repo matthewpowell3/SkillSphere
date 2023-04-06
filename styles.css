@@ -29,8 +29,8 @@ body {
   ul {
     display: none;
   }
-  #artimage {
-    margin-left: 100px;
+  #aside {
+    margin-left: 50px;
   }
   #email-input {
     display: inline-block;
@@ -48,6 +48,9 @@ body {
 @media screen and (min-width: 1021px) {
   #navbar-mobile {
     display: none;
+  }
+  #aside {
+    margin-left: 50px;
   }
 }
 
