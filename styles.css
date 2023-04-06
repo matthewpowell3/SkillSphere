@@ -52,6 +52,9 @@ body {
   #aside {
     margin-left: 50px;
   }
+  #email-input {
+    margin-bottom: 20px;
+  }
 }
 
 #nav {
