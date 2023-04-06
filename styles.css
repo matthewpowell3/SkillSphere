@@ -132,8 +132,5 @@ a:hover {
   padding: 15px 50px;
   border: none;
   border-radius: 25px;
-}
-
-#sumbit-button:hover {
   animation: slide 3s ease-in-out 4 alternate;
 }
