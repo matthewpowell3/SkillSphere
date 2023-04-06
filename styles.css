@@ -26,8 +26,17 @@ body {
 }
 
 @media screen and (max-width: 1020px) {
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10%;
+  }
   #main {
     margin-top: 100px;
+  }
+  #nav {
+    margin-left: none;
   }
   ul {
     display: none;
