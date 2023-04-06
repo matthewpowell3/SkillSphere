@@ -26,6 +26,9 @@ body {
 }
 
 @media screen and (max-width: 1020px) {
+  #main {
+    margin-top: 100px;
+  }
   ul {
     display: none;
   }
