@@ -63,6 +63,9 @@ body {
 }
 
 @media screen and (max-width: 792px) {
+  #navbar-mobile {
+    margin-left: 10%;
+  }
   #aside {
     margin-right: 50px;
   }
