@@ -37,14 +37,6 @@ body {
   padding-left: 10px;
 }
 
-li {
-  transition: all 0.15s;
-}
-
-li:hover a {
-  transform: translateY(10px);
-}
-
 a {
   color: #0000008c;
   text-decoration: none;
