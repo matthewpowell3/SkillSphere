@@ -21,7 +21,9 @@ body {
 }
 
 #header #logo {
-  width: 0px;
+  object-position: center center;
+  object-fit: cover;
+  width: 40px;
   margin-right: 5px;
 }
 
