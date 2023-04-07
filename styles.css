@@ -27,12 +27,31 @@ body {
   margin-right: 5px;
 }
 
+.background-navbar-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.background-navbar-mobile:hover {
+  background-color: rgb(53, 51, 51);
+}
+
 @media screen and (max-width: 1020px) {
   #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px 10%;
+  }
+  #navbar-mobile {
+    display: inline-block;
+    padding: 15px;
+  }
+  #navbar-mobile:hover {
+    opacity: 0.7;
   }
   #main {
     margin-top: 100px;
@@ -65,9 +84,6 @@ body {
 }
 
 @media screen and (max-width: 792px) {
-  #navbar-mobile {
-    margin-left: 10%;
-  }
   #aside {
     margin-right: 50px;
   }
