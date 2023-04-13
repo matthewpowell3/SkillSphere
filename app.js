@@ -3,5 +3,5 @@ const button = document.getElementById('submit-button').classList;
 
 // adding classlist you have to use classlist
 function animation() {
-  button.add('animationButton');
+  setInterval(button.add('animationButton'), 3000);
 }
