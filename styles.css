@@ -215,5 +215,9 @@ a:hover {
   padding: 15px 50px;
   border: none;
   border-radius: 25px;
+}
+
+#animationButton {
+  color: red;
   animation: slide 3s ease-in-out 4 alternate;
 }
